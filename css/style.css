@@ -1,13 +1,49 @@
-* {
-  margin: 0px;
-  padding: 0;
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+
 body {
+  min-height: 100vh;
+  font-size: 16px;
+  line-height: 1;
   font-family: "open_sanslight";
   font-weight: 500;
   height: 100vh;
+}
+
+ul,
+ol {
+  padding: 0 !important;
 }
 
 a {
@@ -20,6 +56,10 @@ section > .container {
   width: 100%;
   margin: auto;
   padding: 30px 50px;
+}
+
+.bg-second {
+  background-color: #dbdbdb;
 }
 
 .flex-center {
@@ -128,6 +168,11 @@ section > .container {
   grid-template-columns: 1.5fr 1fr;
   gap: 30px;
   margin: 0;
+}
+
+#about .container #target,
+#about .container #personal-info {
+  padding: 20px 30px;
 }
 
 #about .container #target .section-title,
