@@ -1,0 +1,10 @@
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  /* ===== Banner ===== */
+  #banner {
+    height: 50%;
+  }
+  #navbar .container .navbar-block {
+    /* display: none; */
+  }
+}

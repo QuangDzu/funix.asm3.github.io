@@ -1,0 +1,68 @@
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  #banner {
+    height: 50%;
+  }
+  #navbar .container .navbar-block {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* ===== Banner ===== */
+  /* #banner {
+    height: 15%;
+  } */
+  #banner span {
+    top: 40%;
+  }
+}
+
+@media screen and (min-width: 560px) and (max-width: 767.98px) {
+  ol,
+  ul {
+    padding-left: 1rem !important;
+  }
+
+  section > .container {
+    padding: 10px 20px;
+    width: 100%;
+  }
+
+  /* ===== Banner ===== */
+  #banner {
+    height: 50%;
+  }
+
+  #banner span {
+    top: 40%;
+  }
+
+  #navbar .container a {
+    max-width: 150px;
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  #navbar .container .navbar-block {
+    display: none;
+  }
+
+  /* ===== About ===== */
+  #about .container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .certificate-block .item {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #project .container .project-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #footer {
+    width: 100%;
+  }
+}
