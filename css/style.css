@@ -162,7 +162,7 @@ section > .container {
 /* ------------------------ */
 /* ABOUT */
 /* ------------------------ */
-#about .container {
+#about {
   width: 100%;
   display: grid;
   grid-template-columns: 1.5fr 1fr;
@@ -170,34 +170,34 @@ section > .container {
   margin: 0;
 }
 
-#about .container #target,
-#about .container #personal-info {
+#about #target,
+#about #personal-info {
   padding: 20px 30px;
 }
 
-#about .container #target .section-title,
-#about .container #personal-info .section-title {
+#about #target .section-title,
+#about #personal-info .section-title {
   margin-bottom: 30px;
   font-size: 26px;
 }
 
-#about .container #target p {
+#about #target p {
   font-size: 16px;
   line-height: 1.4;
 }
-#about .container #personal-info .info {
+#about #personal-info .info {
   font-size: 16px;
   list-style: none;
 }
-#about .container #personal-info .info li {
+#about #personal-info .info li {
   margin-bottom: 10px;
 }
 
-#about .container #personal-info .info li span {
+#about #personal-info .info li span {
   font-weight: 700;
 }
 
-#about .container #personal-info .info-icons span {
+#about #personal-info .info-icons span {
   font-size: 28px;
   color: #7587fa;
 }
